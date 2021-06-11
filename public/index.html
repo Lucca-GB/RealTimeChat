@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Chat da BRQ - ContratoSeguro</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1><i><img className="brqimg" src="https://www.brq.com/images/logo-brq.png" alt="imagem logo brq"></i> ChatContratoSeguro</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Nome de Usuário</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Coloque seu nome de usuário"
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Sala</label>
+						<select name="room" id="room">
+							<option value="JavaScript">Bate-papo #1</option>
+							<option value="Python">Bate-papo #2</option>
+							<option value="PHP">Bate-papo #3</option>
+							<option value="C#">Bate-papo #4</option>
+							<option value="Ruby">Bate-papo #5</option>
+							<option value="Java">Bate-papo #6</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Entrar</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
